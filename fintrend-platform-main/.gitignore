@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+**/dist/
+build/
+**/build/
+.vite/
+**/.vite/
+
+# Local databases & logs
+*.log
+**/stderr.log
+**/stdout.log
+backend/database/database.sqlite
+backend/database/database.sqlite-journal
+npm-debug.log*
+
+# System & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
